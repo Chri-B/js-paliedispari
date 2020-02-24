@@ -15,23 +15,23 @@ var sceltaUtente = parseInt(prompt('Inserisci "2" se vuoi scegliere PARI, altrim
 while ((sceltaUtente != '1') && (sceltaUtente != '2')) { // 1.1
     var sceltaUtente = parseInt(prompt('Devi inserire il numero "1" per dispari, o "2" per pari!'));
 }
-console.log('2 pari 1 dispari', sceltaUtente);
+//console.log('2 pari 1 dispari', sceltaUtente);
 
 // 2.
 var numeroUtente = parseInt(prompt('Ora scegli un numero da 1 a 5 per giocare!'));
 while ((isNaN(numeroUtente)) || (numeroUtente > '5') || (numeroUtente < '1')) { // 2.1
     var numeroUtente = parseInt(prompt('Devi inserire un numero da 1 a 5!'));
 }
-console.log('utente:', numeroUtente);
+//console.log('utente:', numeroUtente);
 
 var numeroComputer = randomNumberGenerator(1, 5); // 3.
-console.log('computer:', numeroComputer);
+//console.log('computer:', numeroComputer);
 
 var sommaNumeri = numeroComputer + numeroUtente; // 4.
-console.log('somma:', sommaNumeri);
+//console.log('somma:', sommaNumeri);
 
 var pariODispari = isPari(sommaNumeri); //5.
-console.log(pariODispari);
+//console.log(pariODispari);
 
 // 6. 7.
 if ((pariODispari == true) && (sceltaUtente == '2')) {
