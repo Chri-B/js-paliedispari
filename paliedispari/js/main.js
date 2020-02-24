@@ -7,7 +7,7 @@
     4. sum of the two numbers
     5. check if the sum is odd or even using a function
     6. compare user choice (point 1) with the result of point 5.
-    7. display who won
+    7. display who won;
 */
 
 // 1.
